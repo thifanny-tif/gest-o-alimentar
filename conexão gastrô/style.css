@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+/*fontes poppins e */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700');
+    @import url(fontes/Oferta\ Do\ Dia.zip);
 * {
 margin: 0;
 padding: 0;
@@ -9,5 +12,188 @@ text-decoration: none;
 
 body {
     font-size: 100%;
-    background: #FFEFDB;
+   /* background: rgba(54, 16, 65, 1);*/
 }
+
+/*1*/
+
+.conteudo{
+    margin-bottom:48px;
+
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'oferta do dia', 'caveat';
+    background-color: rgba(54, 16, 65, 1);
+    color:rgba(255, 239, 219, 1);
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 30px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-size: 400px;
+    color: rgba(255, 239, 219, 1);
+}
+
+.conteudo-principal-subtitulo{
+    font-family: 'poppins', 'sans-serif';
+    font-weight: 400;
+    font-size: 15px;
+    color: #ecd6c4;
+}
+
+.conteudo-principal-imagem{
+    margin-bottom:80px;
+    margin-top:80px;
+    height: 500px;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color:rgba(239, 137, 3, 1);
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'poppins', 'sans-serif';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(164, 239, 3, 0.537);
+    color: rgb(82, 0, 0);
+}
+
+/*2*/
+.conteudo-secundario{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Space Mono';
+    background-color: rgba(255, 239, 219, 1);
+    color:rgba(54, 16, 65, 1);
+    
+}
+
+.conteudo-secundario-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 35px;
+}
+
+.conteudo-secundario-imagem{
+    margin-bottom:80px;
+    margin-top:80px;
+    height: 150px;
+
+}
+
+/*3*/
+.conteudo-terciario{
+    margin-bottom:48px;
+    background-color: rgba(255, 239, 219, 1);
+
+ 
+}
+
+.conteudo-terciario-escrito{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;   
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    font-family: 'oferta do dia';
+    color: rgba(54, 16, 65, 1);
+
+}
+
+.conteudo-terciario-titulo{
+    font-family: 'poppins', 'sans-serif';
+    color: rgba(54, 16, 65, 1);
+}
+
+.conteudo-terciario-subtitulo{
+    
+    font-weight: 400;
+    font-size: 15px;
+    color: #ecd6c4;
+
+}
+
+
+/*receitas*/
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.receita {
+    position: relative;
+    width: 423px;
+    height: 456px;
+    margin-bottom: 20px;
+}
+
+.receita-imagem {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 123px;
+    background-color: rgba(255, 54, 0, 0.6);
+    backdrop-filter: blur(1px);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+    
+
+.receita-titulo {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 29.2147px;
+    line-height: 128.5%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.receita-botao {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17.3897px;
+    line-height: 128.5%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+

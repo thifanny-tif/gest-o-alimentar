@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700');
+@import url(fontes/Oferta\ Do\ Dia.zip);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+   background-color: rgba(255, 239, 219, 1);  
+  
+}
+
+
+
+            /*barra de rolagem*/
+              body::-webkit-scrollbar {
+                width: 15px;     /* largura */
+            }
+            
+            body::-webkit-scrollbar-track {
+                background: rgba(54, 16, 65, 1);        /* cor de fundo */
+            }
+            
+            body::-webkit-scrollbar-thumb {
+                background-color: rgba(255, 239, 219, 1);    /* cor do polegar */
+                border-radius: 100px;       /* arredondar */
+                border: 3.5px solid rgba(54, 16, 65, 1);  /* creates padding around scroll thumb */
+                transition: background-color 0.9s; /* animação da cor de fundo */
+            }
+            
+            body::-webkit-scrollbar-thumb:hover {
+                background-color: rgba(148, 122, 163, 1);     /* altera a cor do polegar no hover */
+            }
+            
+            body::-webkit-scrollbar-thumb:active {
+                background-color: rgba(207, 143, 56, 1)  /* altera a cor do polegar quando está ativo */
+            }
+      
+
+
+.conteudo{
+    margin-bottom: 50px ;
+    /*border-top:0,4px solid #ff2e7;*/
+    background-image: url(pessoas.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-size: 100% auto;
+    background-color: rgba(255, 239, 219, 1);  
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 260px; /* Adicione a margem superior desejada */
+
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family:'oferta do dia';
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFF2e7;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'poppins', 'sans-serif';
+    font-weight: 400;
+    font-size:20px;
+    color: #ecd6c4;
+}
+
+
+/*2*/
+.conteudo-secundario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 400px;
+
+            /*imagem aspas*/
+            background-image: url("aspas.svg");
+            background-repeat: no-repeat;
+            background-size: 170px;
+            background-position: 190px 0;
+}
+
+.conteudo-secundario-escrito{
+    font-family: 'Space Mono';
+    color: rgba(54, 16, 65, 1);
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+
+            /*destaque de texto*/
+            .destaque {
+                font-weight: bold;
+                color: rgba(239, 137, 3, 1);
+            }
+
+
+
+
+
+/*3*/
+
+.conteudo-terciario-imagem{
+align-items: center;
+height: 500px;
+margin-bottom: 20px;
+}
+
+.conteudo-terciario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.conteudo-terciario-escrito{
+    gap: 90px;
+    margin-top:100px;
+    text-align: center;
+    font-weight: 400;
+    line-height:30px;
+}
+
+.conteudo-terciario-titulo{
+    font-family: 'oferta do dia';
+    font-weight: 400;
+    font-size: 50px;
+    color: rgba(54, 16, 65, 1);
+    margin-bottom: 30px;
+}
+.conteudo-terciario-subtitulo{
+    font-family: 'poppins','sans-serif';
+    font-weight: 300;
+    font-size: 18px;
+    color: rgba(54, 16, 65, 1);
+    
+}
+
+
+
+
+.conteudo-quartenario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+}
+
+.conteudo-quartenario-escrito{
+    gap: 32px;
+    margin-top:50px;
+
+            /*sublinhado*/
+            background-image: url("Vector\ S3\ .svg");
+            background-repeat: no-repeat;
+            background-size: 110px;
+            background-position: 630px 50;
+}
+.conteudo-quartenario-escrito-titulo{
+    font-family: 'oferta do dia';
+    font-weight: 400;
+    font-size: 50px;
+    color: rgba(54, 16, 65, 1);
+}
+        /*fubá*/
+        .conteudo-terciario-escrito-titulo span {
+            color: rgba(239, 137, 3, 1);
+        }
+
+.conteudo-quartenario-escrito-subtitulo{
+    font-family: 'poppins', 'sans-serif';
+    font-weight: 400;
+    font-size:20px;
+    text-align: center;
+    color: rgba(54, 16, 65, 1);
+    margin-top: 20px;
+    margin-bottom: -50px;
+}
+
+/*5*/
+/*EQUIPE*/
+
+.cartao-imagem{
+ border-radius: 25;
+}
+.conteudo-quitenario {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 250px;
+    margin-left: -185px;
+
+  }
+  
+  .conteudo-quitenario-container {
+    display: flex;
+  }
+  
+  .conteudo-quitenario-container-cartao {
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .conteudo-quitenario-container-cartao:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+  
+  .conteudo-quitenario-container-cartao-interno {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .conteudo-quitenario-container-cartao:hover
+  .conteudo-quitenario-container-cartao-interno {
+    transform: rotateY(180deg);
+  }
+  
+  .cartao-frente,
+  .cartao-verso {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+  }
+  
+  .cartao-frente {
+    shadow
+ }
+  
+  .cartao-verso {
+    transform: rotateY(180deg);
+  }
+  
+  
+
+/*6*/
+.conteudo-sextenario {
+    background-image: url(roxo\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 65vh; /* ajuste a altura conforme necessário */
+  }
+  
+  .conteudo-sextenario-global {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 140px; /*afastando elementos da margem*/
+  }
+  
+  .conteudo-sextenario-escrito {
+    display: flex;.flip-card-container {
+  display: flex;
+  justify-content: center;
+}
+  
+  .conteudo-sextenario-escrito-titulo {
+    font-family: 'oferta do dia';
+    font-weight: 400;
+    font-size: 35px;
+    color: #ecd6c4;
+    text-align: left;
+  }
+  .conteudo-sextenario-escrito-subtitulo {
+    font-family: 'space mono';
+    font-size: 15px;
+    color: #ecd6c4;
+    text-align: left;
+    margin-left: 
+    margin-top:
+  }
+  
+  .conteudo-sextenario-escrito-titulo span.destaque {
+    color: rgba(239, 137, 3, 1); /* destaque */
+    font-weight: 400;
+  }
+  
+  .conteudo-sextenario-imagem {
+    width: 100px; /* Ajuste a largura da imagem conforme necessário */
+    height: 100px; /* Ajuste a altura da imagem conforme necessário */
+    filter: invert(100%);  
+}

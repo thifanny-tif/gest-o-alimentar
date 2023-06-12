@@ -1,181 +1,74 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descriptoin" content="Site que busca conscinetizar sobre gestão alimentar para a periferia.">
+    <link rel="stylesheet" type="text/css" href="teste.css" media="">
     <title>Conexão Gastrô</title>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="icon.png" type="logo"/>
 </head>
 
-
-<!--tif 01/06: começando a pag: home que é uma landing page-->
-<!--tif 01/06: ao inves de usar varias div's, separei a estrutura em: header, main e footer-->
-
-<body>
-
-    <!--tif 01/06: Cabeçalho-->
-    <!--tif 01/06: O que eu fiz? menu de navegação com os primeiros "links", logo, menu de redes sociais e botão de tabela nutricional-->
-
-<header>
-    <nav>
-        <a href="">Home</a>
-        <a href="">Receitas</a>
-        <a href="">Sobre Nós</a>        
-    </nav>
-    <img src="img (Id.visual)/Conexão Gastrô - logo(1).svg" height="50">
-    <nav>
-        <img href="", src="img (Social Media)/Facebook.svg", alt="icone Facebook">
-        <img href="", src="img (Social Media)/Instagram.svg" alt="icone Instagram">
-        <img href="", src="img (Social Media)/Twitter.svg" alt="icone Twitter">
-    </nav>
-    <button>Tabela Nutricinal</button>
-</header>
-
-    <!--tif 01/06: Meio da Página-->
-
-<main>
-
-    <!-- 1 - PRIEMIRA SESSÂO-->
-    <section>
-        <H1>Lorem in pisum dolor</H1>
-         <h4>
-         Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-         </h4>
-        <button>Tabela Nutricional</button>
-    </section>
-
-    <!-- 2 - SEGUNDA SESSÂO-->
-    <section>
-        <img src="img (Id.visual)/aspas.svg" alt="Aspas para Citação">
-    <h2>
-        Dicas de receitas <strong>econômicas & criativas</strong> valorizando a <strong>da culinária brasileira.</strong> Buscamos adaptar as técnicas culinárias às possibilidades da periferia.
-    </h2>
-    </section>
-
-   <!-- 3 - TERCEIRA SESSÂO-->
-    <section>
-        <H1>Podemos Criar delicias com #fubá!</H1>
-        <img src="img (Id.visual)/Vector S3 .svg">
-         <h4>
-            Sabores do Brasil com ingredientes acessíveis para refeições completas, lanches, vendas e, claro, com uma ótima garantia de sabor!
-         </h4>
-
-
-         <div>
-            <img src="img (fubá)/Bolo de fubá.png" alt="Imaguem de Bolo de Fubá">
-            <a href="">Bolo de Fubá</a>
-            <a href="">Veja Mais+</a>
-         </div>
-
-         <div>
-            <img src="img (fubá)/Farofa de Cuscuz.png" alt="Imagem da Farofa de Cuscuz.">
-            <a href="">Farofa de Cuscuz</a>
-            <a href="">Veja Mais+</a>
-         </div>
-
-         <div>
-            <img src="img (fubá)/Broa de Milho.png" alt="Imagem da Broa de Milho.">
-            <a href="">Broa de Milho</a>
-            <a href="">Veja Mais+</a>
-         </div>
-         
-    </section>
-
-<!-- 4 - QUARTA SESSÂO-->
-    <section>
-        <H1>Sem desperdício, Alimento Garantido!</H1>
-        <h1>Crie Marmitas Semanais:</h1>
-        <img src="img (Id.visual)/Vector S3 .svg">
-        <h4>
-            Te ajudamos desde as compras, até o congelamento de pratos saborosos para que aproveite ao máximo sem desperdiçar! 
-        </h4>
-        
-
-         <img src="img (prato)/macarrão.png" alt="Imagem de cummbuca com salada de macarrão, ervilhas, tomates, frutos do mar e duas cebolinhas inteiras de decoração!"> 
-            <img src="img (veg&oni)/veg.svg" alt="Icone vegano, duas folhas.">
-            <a href="">Dieta Vegana</a>
-            <button>Confira nosso cardápio!</button>
-         </div>
-
-         <div>
-            <img src="img (veg&oni)/oni.svg" alt="Icone onivoro, um peixinho.">
-            <a href="">Dieta Onivora</a>
-            <button>Confira nosso cardápio!</button>
-         </div>
-         
-    </section>
-
-<!-- 5 - QUINRA SESSÂO-->
-    <section>
-        <H1>Descubra projetos sociais!</H1>
-        <img src="img (Id.visual)/Vector S5.svg">
-        <h1>Seja voluntario e mude a comunidade!</h1>
-        <h4>
-            Garanta seu alimento: através de projetos sociais arrecadação, receba ou doe suprimentos de cestas básicas, participe de cozinhas comunitárias e tenha assistência social.
-        </h4>
-
-
-        <div>
-            <!--espaço de midia-->
-            <h4>Nome</h4>
-            <h4>Descrição, local, telefone</h4>
-
-            <img src="img (Id.visual)/Botão _ esquera.svg" alt="">
-            <img src="img (Id.visual)/Botão _ direita.svg" alt="">
+<main class="conteudo">
+    <!--1-->
+    <section class="conteudo-principal">
+        <div class="conteudo-principal-escrito">
+            <h2 class="conteudo-principal-escrito-titulo">Sem desperdício. <br>Alimento Garantido!</h2>
+            <p class="conteudo-principal-escrito-subtitulo">Aproveite ao máximo! Te ajudamos desde as <br>compras até o congelamento de pratos saborosos.<br>O que mais poderia ser melhor?</p>
+            <button class="conteudo-principal-escrito-botao">Receba no WhatsApp!</button>
         </div>
-
+        <img class="conteudo-principal-imagem" src="macarrao.png" alt="macarrão">
     </section>
-
+    <!--2-->
+    <section class="conteudo-secundario">
+        <!--<img class='conteudo-secundario-imagem' src="img (Id.visual)/aspas.svg" alt="aspas">-->
+        <div class="conteudo-secundario-escrito">
+            <h3 class="conteudo-secundario-escrito-titulo">Dicas de receitas <span class="destaque">econômicas &amp; <br> criativas</span> valorizando a <span class="destaque">diversidade<br>da culinária brasileira</span>. Buscamos<br>adaptar as técnicas culinárias às<br>possibilidades da periferia.</h3>
+        </div>
+    </section>
+    <!--3-->
+    <section class="conteudo-terciario">
+        <div class="conteudo-terciario-escrito">
+            <h2 class="conteudo-terciario-escrito-titulo">Podemos Criar delicias com <span>#fubá!</span></h2>
+            <p class="conteudo-terciario-escrito-subtitulo">Sabores do Brasil com ingredientes acessíveis para refeições completas,<br>lanches, vendas e, claro, com uma ótima garantia de sabor!</p>
+        </div>
+    </section>
+    <!--4 -->
+    <div class="roda-pe">
+        <section class="conteudo-quartenario">
+            <div class="conteudo-quartenario-receita">
+                <img class="conteudo-quartenario-receita-imagem" src="img (fubá)/Broa de Milho.png" alt="broa de milho">
+                <div class="conteudo-quartenario-overlay">
+                    <h2 class="conteudo-quartenario-receita-titulo">Broa de Milho</h2>
+                    <a class="conteudo-quartenario-receita-botao" href="#">Veja mais +</a>
+                </div>
+            </div>
+            <div class="conteudo-quartenario-receita">
+                <img class="conteudo-quartenario-receita-imagem" src="img (fubá)/Bolo de fubá.png" alt="bolo de fubá">
+                <div class="conteudo-quartenario-overlay">
+                    <h2 class="conteudo-quartenario-receita-titulo">Bolo de Fubá</h2>
+                    <a class="conteudo-quartenario-receita-botao" href="#">Veja mais +</a>
+                </div>
+            </div>
+            <div class="conteudo-quartenario-receita">
+                <img class="conteudo-quartenario-receita-imagem" src="img (fubá)/Farofa de Cuscuz.png" alt="farofa de cuscuz">
+                <div class="conteudo-quartenario-overlay">
+                    <h2 class="conteudo-quartenario-receita-titulo">Farofa de Cuscuz</h2>
+                    <a class="conteudo-quartenario-receita-botao" href="#">Veja mais +</a>
+                </div>
+            </div>
+        </section>
+        <!--5-->
+        <section class="conteudo-quintenario">
+            <div class="conteudo-quintenario-global">
+                <div class="conteudo-quintenario-escrito">
+                    <img class="conteudo-quintenario-imagem" src="qr.png" alt="QR Code">
+                    <h1 class="conteudo-quintenario-escrito-titulo">Receba nossos<br><span class="destaque">cardápios</span> mensais<br>pelo <span class="destaque">WhatsApp</span>!</h1>
+                </div>
+            </div>
+        </section>
+    </div>
 </main>
 
 
-<!--tif 01/06: Rodapé-->
-
-<footer>
-    <div>
-        <H1>Receba nossos cardápios mensaid pelo Whatsapp!</H1>
-        <textarea></textarea>
-        <button>Receber!</button>
-    </div>
-    
-    <!--adicionar tag de linha para separar-->
-
-    <div>
-    <img src="img (Id.visual)/Conexão Gastrô - logo(1).svg" height="50">
-    <p>Comida periferica!</p>
-    </div>
-
-    <nav>
-        <img href="", src="img (Social Media)/Facebook.svg", alt="icone Facebook">
-        <img href="", src="img (Social Media)/Instagram.svg" alt="icone Instagram">
-        <img href="", src="img (Social Media)/Twitter.svg" alt="icone Twitter">
-    </nav>
-
-    <nav>
-        <a href="">Home</a>
-        <a href="">Receitas</a>
-        <a href="">Sobre Nós</a>        
-    </nav>
-
-    <nav>
-        <a href="">Tabela Nutrional</a>
-        <a href="">Perguntas Frequentes</a>
-        <a href="">Termos De Uso</a>        
-    </nav>
-   
-    <nav>
-        <a href="">+ 0800 0000 0000</a>
-        <a href="">conexão@gastro.com</a>       
-    </nav>
-
-    <button>Tabela Nutricinal</button>
-</header>
-
-</footer>
-    
-
 </body>
-
 </html>

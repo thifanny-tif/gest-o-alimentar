@@ -1,0 +1,32 @@
+.conteudo{
+    margin-bottom:48px;
+    color:rgba(255, 239, 219, 1);
+    background-color: c;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'oferta do dia', 'poppins';
+
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-size: 100px;
+    color: rgba(255, 239, 219, 1);
+}
+
+.conteudo-principal-subtitulo{
+    font-family: 'poppins', 'sans-serif';
+    font-weight: 400;
+    font-size: 15px;
+    color: #ecd6c4;
+}

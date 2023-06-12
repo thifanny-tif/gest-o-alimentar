@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700');
+@import url(fontes/Oferta\ Do\ Dia.zip);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-size: 100% auto;
+    background-color: rgba(255, 239, 219, 1);    
+}
+
+cursor: url('cusor;png'), auto;
+
+
+            /*barra de rolagem*/
+              body::-webkit-scrollbar {
+                width: 15px;     /* largura */
+            }
+            
+            body::-webkit-scrollbar-track {
+                background: rgba(54, 16, 65, 1);        /* cor de fundo */
+            }
+            
+            body::-webkit-scrollbar-thumb {
+                background-color: rgba(255, 239, 219, 1);    /* cor do polegar */
+                border-radius: 100px;       /* arredondar */
+                border: 3.5px solid rgba(54, 16, 65, 1);  /* creates padding around scroll thumb */
+                transition: background-color 0.9s; /* animação da cor de fundo */
+            }
+            
+            body::-webkit-scrollbar-thumb:hover {
+                background-color: rgba(148, 122, 163, 1);     /* altera a cor do polegar no hover */
+            }
+            
+            body::-webkit-scrollbar-thumb:active {
+                background-color: rgba(207, 143, 56, 1)  /* altera a cor do polegar quando está ativo */
+            }
+      
+
+.conteudo{
+    margin-bottom: 50px ;
+    /*border-top:0,4px solid #ff2e7;*/
+.conteudo-secundario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 300px;
+
+            /*imagem aspas*/
+            background-image: url("aspas.svg");
+            background-repeat: no-repeat;
+            background-size: 170px;
+            background-position: 210px 0;
+}
+
+.conteudo-secundario-escrito{
+    font-family: 'Space Mono';
+    color: rgba(54, 16, 65, 1);
+    font-weight: 400;
+    font-size: 30px;
